@@ -27,6 +27,15 @@ A aplicação utiliza **Injeção de Dependência** com controle de ciclo de vid
 
 A **Inversão de Controle (IoC)** é utilizada para centralizar o gerenciamento das dependências no container nativo do ASP.NET Core, promovendo desacoplamento entre as camadas.
 
+## 🔀 API Gateway (Ocelot)
+
+Implementado para centralizar o acesso aos microserviços de Estoque e Vendas, atuando como ponto único de entrada e roteamento das requisições.
+
+## 📩 Mensageria com RabbitMQ (Em evolução)
+
+Estrutura inicial configurada utilizando RabbitMQ para viabilizar comunicação assíncrona baseada em eventos entre os microserviços.
+Atualmente em fase de aprimoramento.
+
 ## 💻 Tecnologias Utilizadas
 
  - .NET
@@ -36,3 +45,9 @@ A **Inversão de Controle (IoC)** é utilizada para centralizar o gerenciamento 
  - Entity Framework Core
 
  - Microsoft SQL Server
+
+ - API Gateway (Ocelot)
+
+ - RabbitMQ
+
+ - Swagger
