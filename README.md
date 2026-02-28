@@ -3,7 +3,7 @@
 ## 🚧 Projeto em Evolução 🚧
 #### Microserviço desenvolvido no desafio técnico da Avanade.
 
-🏗 Arquitetura estruturada com separação por camadas:
+🏗 **Arquitetura estruturada com separação por camadas:**
 
  - API
 
