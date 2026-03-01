@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Estoque.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8dd287a4156722f4766074536e659f2e9859a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6869e062cefdf24b374c14a08169493ecda5cb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Estoque.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Estoque.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
