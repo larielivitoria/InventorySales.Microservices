@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Estoque.IoC
 {
-    public static class DependencyInjectionsIfrastructure
+    public static class DependencyInjectionsInfrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {

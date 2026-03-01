@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9QOd6u2+dVE=",
+  "dgSpecHash": "IAlFMKQLKxg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\larie\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.12\\microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\larie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.12\\microsoft.windowsdesktop.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\larie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.12\\microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

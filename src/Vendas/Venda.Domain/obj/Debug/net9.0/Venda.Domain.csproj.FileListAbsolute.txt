@@ -9,3 +9,15 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Vendas\Venda.D
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Vendas\Venda.Domain\obj\Debug\net9.0\refint\Venda.Domain.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.pdb
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Vendas\Venda.Domain\obj\Debug\net9.0\ref\Venda.Domain.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\bin\Debug\net9.0\Venda.Domain.deps.json
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\bin\Debug\net9.0\Venda.Domain.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\bin\Debug\net9.0\Venda.Domain.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.AssemblyInfoInputs.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.AssemblyInfo.cs
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.csproj.CoreCompileInputs.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.sourcelink.json
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\refint\Venda.Domain.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\Venda.Domain.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Vendas\Venda.Domain\obj\Debug\net9.0\ref\Venda.Domain.dll

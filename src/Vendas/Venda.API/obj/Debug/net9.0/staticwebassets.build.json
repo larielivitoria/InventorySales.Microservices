@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "68/3MlwOlfwHIhGkjzeKWtMpPEFYAui9A4rdC2512OI=",
-  "Source": "Venda.API",
-  "BasePath": "_content/Venda.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"0vRiaHKe0DkjIWH087Y9hHpyfNu6PCMLenY4n5Ehsqw=","Source":"Venda.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "FluentValidation/11.11.0": {
+      "FluentValidation/12.1.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/FluentValidation.dll": {
@@ -15,7 +15,7 @@
           }
         }
       },
-      "IPAddressRange/6.2.0": {
+      "IPAddressRange/6.3.0": {
         "type": "package",
         "compile": {
           "lib/net9.0/IPAddressRange.dll": {
@@ -28,7 +28,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/9.0.4": {
+      "Microsoft.AspNetCore.JsonPatch/9.0.11": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -45,10 +45,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.MiddlewareAnalysis/9.0.4": {
+      "Microsoft.AspNetCore.MiddlewareAnalysis/9.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.11"
         },
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll": {
@@ -64,10 +64,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.4": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "9.0.4",
+          "Microsoft.AspNetCore.JsonPatch": "9.0.11",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -85,7 +85,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.OpenApi/9.0.4": {
+      "Microsoft.AspNetCore.OpenApi/9.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.6.17"
@@ -197,7 +197,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.11": {
         "type": "package",
         "compile": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -343,13 +343,13 @@
           }
         }
       },
-      "Ocelot/24.0.1": {
+      "Ocelot/24.1.0": {
         "type": "package",
         "dependencies": {
-          "FluentValidation": "11.11.0",
-          "IPAddressRange": "6.2.0",
-          "Microsoft.AspNetCore.MiddlewareAnalysis": "9.0.4",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "9.0.4",
+          "FluentValidation": "12.1.1",
+          "IPAddressRange": "6.3.0",
+          "Microsoft.AspNetCore.MiddlewareAnalysis": "9.0.11",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "9.0.11",
           "Microsoft.Extensions.DiagnosticAdapter": "3.1.32"
         },
         "compile": {
@@ -379,41 +379,33 @@
     }
   },
   "libraries": {
-    "FluentValidation/11.11.0": {
-      "sha512": "cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
       "type": "package",
-      "path": "fluentvalidation/11.11.0",
+      "path": "fluentvalidation/12.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.11.11.0.nupkg.sha512",
+        "fluentvalidation.12.1.1.nupkg.sha512",
         "fluentvalidation.nuspec",
-        "lib/net5.0/FluentValidation.dll",
-        "lib/net5.0/FluentValidation.xml",
-        "lib/net6.0/FluentValidation.dll",
-        "lib/net6.0/FluentValidation.xml",
-        "lib/net7.0/FluentValidation.dll",
-        "lib/net7.0/FluentValidation.xml",
         "lib/net8.0/FluentValidation.dll",
-        "lib/net8.0/FluentValidation.xml",
-        "lib/netstandard2.0/FluentValidation.dll",
-        "lib/netstandard2.0/FluentValidation.xml",
-        "lib/netstandard2.1/FluentValidation.dll",
-        "lib/netstandard2.1/FluentValidation.xml"
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
-    "IPAddressRange/6.2.0": {
-      "sha512": "cqFHYpaouUdk/mRsEke3XKO2/iL+PQB/F5293MjxPa2CtwQZvV57DU+CMmOOLoAVCO6wYo43k8XV7BCB8k2YIQ==",
+    "IPAddressRange/6.3.0": {
+      "sha512": "VrGoeUz+ZK2QiwHNj+vab9uOvTDucenRseJZjc4uB7ASduQ7RNWnpd8gy1e9z2BsY4VoigVaCRrcQCQKuQVSiw==",
       "type": "package",
-      "path": "ipaddressrange/6.2.0",
+      "path": "ipaddressrange/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "ipaddressrange.6.2.0.nupkg.sha512",
+        "ipaddressrange.6.3.0.nupkg.sha512",
         "ipaddressrange.nuspec",
+        "lib/net10.0/IPAddressRange.dll",
+        "lib/net10.0/IPAddressRange.xml",
         "lib/net462/IPAddressRange.dll",
         "lib/net462/IPAddressRange.xml",
         "lib/net5.0/IPAddressRange.dll",
@@ -433,10 +425,10 @@
         "nupkg-icon.png"
       ]
     },
-    "Microsoft.AspNetCore.JsonPatch/9.0.4": {
-      "sha512": "UwO32yEyDv3a5FOs6BHOpymKMm6eFi6endbwsL+6RubtMhj6ohfszImuYE15Veg9oyx0LbZ5cdzTrxSIWC7kug==",
+    "Microsoft.AspNetCore.JsonPatch/9.0.11": {
+      "sha512": "Q+A8LiyaUBurFMSdAzKTpT8jEa9Sc8EsNK0sJEA6glRP4vVl7OGXLV07bfDhcVlFU2hUkn+6Ofmw7HQ0cJ1n1g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/9.0.4",
+      "path": "microsoft.aspnetcore.jsonpatch/9.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -448,14 +440,14 @@
         "lib/net9.0/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.9.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.9.0.11.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.MiddlewareAnalysis/9.0.4": {
-      "sha512": "FQzJkgezlO7ehPZrYmD0TznxKb6fV444OboNP7AbgPGGxncdFGR1ytbph+hwaEaJFLKbob/BAI+7jzOlKHWGqw==",
+    "Microsoft.AspNetCore.MiddlewareAnalysis/9.0.11": {
+      "sha512": "zqSw4kYn1j9fHvq6i/rLqETnYTIPHbHRIpmVjd+Ntzdb2AN2cEYaJ5247ay+uHePSUDQWtM/+M8h5ExmUYiV4A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.middlewareanalysis/9.0.4",
+      "path": "microsoft.aspnetcore.middlewareanalysis/9.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -463,14 +455,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll",
         "lib/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.xml",
-        "microsoft.aspnetcore.middlewareanalysis.9.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.middlewareanalysis.9.0.11.nupkg.sha512",
         "microsoft.aspnetcore.middlewareanalysis.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.4": {
-      "sha512": "6yo3NnRagiOHuGu+Pd0W0fVd0ZX08DV4ciu5048Hog4rtfVNnCgezp65q9Gm9ZFmaVQpkP4+YWPtN9SELh186A==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.11": {
+      "sha512": "xbpMq5ptjbTivpGz76NQ80Z3Oy204ndTJGoUdQB+vF0DOoii/loz1gr/q2KdFdloAFXju0v4lTiWEhGcIKmtyQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/9.0.4",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/9.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -479,14 +471,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.9.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.9.0.11.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/9.0.4": {
-      "sha512": "GfZWPbZz1aAtEO3wGCkpeyRc0gzr/+VRHnUgY/YjqVPDlHbeKWCXw3IxKarQdo9myC2O1QBf652Mo50QqbXYRg==",
+    "Microsoft.AspNetCore.OpenApi/9.0.8": {
+      "sha512": "BwF9sQCKmvu93C/pmKxJjPhF5fFB23MEcgTsGL+7W3wKLYawS4lyFSL5/qh00IJzuADLf+1SmvxMaphbyZYqQQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/9.0.4",
+      "path": "microsoft.aspnetcore.openapi/9.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -495,7 +487,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -682,10 +674,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
-      "sha512": "UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.11": {
+      "sha512": "+ZxxZzcVU+IEzq12GItUzf/V3mEc5nSLiXijwvDc4zyhbjvSZZ043giSZqGnhakrjwRWjkerIHPrRwm9okEIpw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -707,7 +699,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.11.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -908,10 +900,10 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Ocelot/24.0.1": {
-      "sha512": "f+5jdGU/bMSVjQeS/02EHn2afK8fyqGlswlrMOcDhQzHcA1pcMYvsFn9YKFFy4ynv2pyHmCue76Vs7KI9GuKOg==",
+    "Ocelot/24.1.0": {
+      "sha512": "M5CRBRU9B+zyFqAiPVIDSANSONumKdtDv7AZvAAuK3Sl39mP7FoknvhIxvbbqchq/x0xGialAvUDuEQZJ0T09Q==",
       "type": "package",
-      "path": "ocelot/24.0.1",
+      "path": "ocelot/24.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -921,7 +913,7 @@
         "lib/net8.0/Ocelot.xml",
         "lib/net9.0/Ocelot.dll",
         "lib/net9.0/Ocelot.xml",
-        "ocelot.24.0.1.nupkg.sha512",
+        "ocelot.24.1.0.nupkg.sha512",
         "ocelot.nuspec",
         "ocelot_icon.png"
       ]
@@ -955,29 +947,29 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.4",
+      "Microsoft.AspNetCore.OpenApi >= 9.0.8",
       "Microsoft.Extensions.Configuration.Json >= 9.0.9",
-      "Ocelot >= 24.0.1"
+      "Ocelot >= 24.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\": {},
+    "C:\\Users\\larie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\ApiGateway\\ApiGateway.csproj",
+      "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\ApiGateway\\ApiGateway.csproj",
       "projectName": "ApiGateway",
-      "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\ApiGateway\\ApiGateway.csproj",
-      "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\ApiGateway\\obj\\",
+      "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\ApiGateway\\ApiGateway.csproj",
+      "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\ApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1004,7 +996,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1012,7 +1004,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[9.0.4, )"
+            "version": "[9.0.8, )"
           },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
@@ -1020,7 +1012,7 @@
           },
           "Ocelot": {
             "target": "Package",
-            "version": "[24.0.1, )"
+            "version": "[24.1.0, )"
           }
         },
         "imports": [
@@ -1034,6 +1026,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1042,7 +1052,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

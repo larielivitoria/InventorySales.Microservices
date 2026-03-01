@@ -13,7 +13,7 @@ namespace Venda.Infrastructure.Db
         {
             var optionsBuilder = new DbContextOptionsBuilder<VendaContext>();
 
-            optionsBuilder.UseSqlServer("Server=localhost\\sqlexpress; Initial Catalog=Vendas;Integrated Security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Initial Catalog=Vendas;Integrated Security=True;TrustServerCertificate=True;");
 
             return new VendaContext(optionsBuilder.Options);
         }

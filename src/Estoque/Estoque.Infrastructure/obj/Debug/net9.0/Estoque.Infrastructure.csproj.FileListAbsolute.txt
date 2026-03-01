@@ -17,3 +17,23 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Estoque\Estoqu
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\ref\Estoque.Infrastructure.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Shared.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\Desafio Técnico Avanade\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Shared.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Infrastructure.deps.json
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Infrastructure.runtimeconfig.json
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Infrastructure.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Infrastructure.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Domain.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Shared.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Estoque.Domain.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\bin\Debug\net9.0\Shared.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.AssemblyInfo.cs
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.sourcelink.json
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque..FDC2F0FF.Up2Date
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\refint\Estoque.Infrastructure.dll
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.pdb
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\Estoque.Infrastructure.genruntimeconfig.cache
+C:\Users\larie\projetoscsharp\InventorySales.Microservices\src\Estoque\Estoque.Infrastructure\obj\Debug\net9.0\ref\Estoque.Infrastructure.dll

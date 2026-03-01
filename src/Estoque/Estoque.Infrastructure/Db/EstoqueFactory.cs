@@ -13,7 +13,7 @@ namespace Estoque.Infrastructure.Db
         {
             var optionsBuilder = new DbContextOptionsBuilder<DbEstoqueContext>();
 
-            optionsBuilder.UseSqlServer("Server=localhost\\sqlexpress; Initial Catalog=Estoque;Integrated Security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Initial Catalog=Estoque;Integrated Security=True;TrustServerCertificate=True;");
 
             return new DbEstoqueContext(optionsBuilder.Options);
         }

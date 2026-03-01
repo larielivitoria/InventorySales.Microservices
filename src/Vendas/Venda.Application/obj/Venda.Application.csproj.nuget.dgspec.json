@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Application\\Venda.Application.csproj": {}
+    "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Application\\Venda.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj": {
+    "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -60,29 +60,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Application\\Venda.Application.csproj": {
+    "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Application\\Venda.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Application\\Venda.Application.csproj",
+        "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Application\\Venda.Application.csproj",
         "projectName": "Venda.Application",
-        "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Application\\Venda.Application.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Application\\obj\\",
+        "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Application\\Venda.Application.csproj",
+        "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,14 +111,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj"
+              "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj"
               },
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj"
+              "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
+                "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj"
               },
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj"
+              "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj"
               }
             }
           }
@@ -119,7 +133,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -135,29 +149,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
+    "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj",
         "projectName": "Venda.Domain",
-        "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\obj\\",
+        "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj",
+        "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,7 +212,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -200,29 +228,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj": {
+    "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj",
         "projectName": "Venda.Infrastructure",
-        "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\Venda.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -237,11 +279,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj"
+              "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj"
               },
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj"
+              "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj": {
+                "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.Domain\\Venda.Domain.csproj"
               }
             }
           }
@@ -256,7 +298,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -292,12 +334,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -60,7 +60,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/9.0.4": {
+      "Microsoft.AspNetCore.OpenApi/9.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.6.17"
@@ -1844,10 +1844,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/9.0.4": {
-      "sha512": "GfZWPbZz1aAtEO3wGCkpeyRc0gzr/+VRHnUgY/YjqVPDlHbeKWCXw3IxKarQdo9myC2O1QBf652Mo50QqbXYRg==",
+    "Microsoft.AspNetCore.OpenApi/9.0.8": {
+      "sha512": "BwF9sQCKmvu93C/pmKxJjPhF5fFB23MEcgTsGL+7W3wKLYawS4lyFSL5/qh00IJzuADLf+1SmvxMaphbyZYqQQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/9.0.4",
+      "path": "microsoft.aspnetcore.openapi/9.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1856,7 +1856,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -5264,7 +5264,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.4",
+      "Microsoft.AspNetCore.OpenApi >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
       "Shared >= 1.0.0",
@@ -5273,23 +5273,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\": {},
+    "C:\\Users\\larie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.API\\Venda.API.csproj",
+      "projectUniqueName": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.API\\Venda.API.csproj",
       "projectName": "Venda.API",
-      "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.API\\Venda.API.csproj",
-      "packagesPath": "C:\\Users\\SAMSUNG ODSSEY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.API\\obj\\",
+      "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.API\\Venda.API.csproj",
+      "packagesPath": "C:\\Users\\larie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SAMSUNG ODSSEY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\larie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5304,11 +5304,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Shared\\Shared.csproj"
+            "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Shared\\Shared.csproj"
             },
-            "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.IoC\\Venda.IoC.csproj": {
-              "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\Desafio Técnico Avanade\\src\\Vendas\\Venda.IoC\\Venda.IoC.csproj"
+            "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.IoC\\Venda.IoC.csproj": {
+              "projectPath": "C:\\Users\\larie\\projetoscsharp\\InventorySales.Microservices\\src\\Vendas\\Venda.IoC\\Venda.IoC.csproj"
             }
           }
         }
@@ -5323,7 +5323,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -5331,7 +5331,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[9.0.4, )"
+            "version": "[9.0.8, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -5359,6 +5359,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5367,7 +5385,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
