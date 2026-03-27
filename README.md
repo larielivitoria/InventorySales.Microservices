@@ -1,7 +1,7 @@
 # InventorySales.Microservices
 
 ## 🚧 Projeto em Evolução 🚧
-#### Microserviço desenvolvido no desafio técnico da Avanade.
+#### Desafio Técnico - Microserviços
 
 🏗 **Arquitetura estruturada com separação por camadas:**
 
@@ -21,7 +21,7 @@
 
 O projeto foi estruturado seguindo os princípios de **DDD (Domain-Driven Design)**, promovendo clara separação de responsabilidades entre as camadas.
 
-Foi aplicado o **Repository Pattern** para abstração da persistência, centralizando operações e evitando replicação de código.
+Aplicação do **Repository Pattern** para abstração da camada de persistência, garantindo desacoplamento e maior testabilidade.
 
 A aplicação utiliza **Injeção de Dependência** com controle de ciclo de vida **Scoped**, garantindo uma instância por requisição HTTP.
 
