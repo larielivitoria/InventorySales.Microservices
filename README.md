@@ -1,7 +1,9 @@
 # InventorySales.Microservices
 
+### 📌 Desafio Técnico Avanade - Microserviços 
+Para entender os requisitos e o contexto do projeto: 🔗 [Documentação do Desafio](./docs/EntendendoDesafio.md)
+
 ## 🚧 Projeto em Evolução 🚧
-#### Desafio Técnico - Microserviços
 
 🏗 **Arquitetura estruturada com separação por camadas:**
 
