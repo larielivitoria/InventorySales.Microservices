@@ -1,7 +1,7 @@
 # InventorySales.Microservices
 
 ## 🚧 Projeto em Evolução 🚧
-#### Microserviço desenvolvido no desafio técnico da Avanade.
+#### Desafio Técnico - Microserviços
 
 🏗 **Arquitetura estruturada com separação por camadas:**
 
