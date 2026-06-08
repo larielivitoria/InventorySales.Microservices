@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Venda.Application\Venda.Application.csproj" />
+    <ProjectReference Include="..\Venda.Infrastructure\Venda.Infrastructure.csproj" />
+    <ProjectReference Include="..\Venda.Domain\Venda.Domain.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.csproj" />
   </ItemGroup>
 
 </Project>

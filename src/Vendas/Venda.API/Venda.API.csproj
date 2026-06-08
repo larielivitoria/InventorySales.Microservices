@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Shared.csproj" />
     <ProjectReference Include="..\Venda.IoC\Venda.IoC.csproj" />
+    <ProjectReference Include="..\Venda.Application\Venda.Application.csproj" />
   </ItemGroup>
 
 </Project>
