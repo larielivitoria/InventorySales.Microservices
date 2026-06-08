@@ -1,7 +1,9 @@
 # InventorySales.Microservices
 
+### 📌 Desafio Técnico Avanade - Microservices 
+Para entender os requisitos e o contexto do projeto: 🔗 [Documentação do Desafio](./docs/EntendendoDesafio.md)
+
 ## 🚧 Projeto em Evolução 🚧
-#### Desafio Técnico - Microserviços
 
 🏗 **Arquitetura estruturada com separação por camadas:**
 
@@ -13,19 +15,17 @@
 
  - Infrastructure
 
-🎯 **Objetivo:** consolidar conceitos de Domain-Driven Design (DDD) e arquitetura limpa, aplicando boas práticas de organização e desacoplamento.
+🎯 **Objetivo:** consolidar conceitos de **Arquitetura Limpa,** aplicando boas práticas de organização e desacoplamento, além de implementar comunicação assíncrona e segurança robusta.
 
 #### ⚙️ Status: em refatoração e aprimoramento contínuo 🔄
 
-## 🏗 Arquitetura e Padrões
+## 🏗 Padrões & Princípios
 
-O projeto foi estruturado seguindo os princípios de **DDD (Domain-Driven Design)**, promovendo clara separação de responsabilidades entre as camadas.
+**Repository Pattern** para abstração da camada de persistência, garantindo desacoplamento e maior testabilidade.
 
-Aplicação do **Repository Pattern** para abstração da camada de persistência, garantindo desacoplamento e maior testabilidade.
+**Injeção de Dependência** com controle de ciclo de vida **Scoped**, garantindo uma instância por requisição HTTP.
 
-A aplicação utiliza **Injeção de Dependência** com controle de ciclo de vida **Scoped**, garantindo uma instância por requisição HTTP.
-
-A **Inversão de Controle (IoC)** é utilizada para centralizar o gerenciamento das dependências no container nativo do ASP.NET Core, promovendo desacoplamento entre as camadas.
+**Inversão de Controle (IoC)** é utilizada para centralizar o gerenciamento das dependências no container nativo do ASP.NET Core, promovendo desacoplamento entre as camadas.
 
 ## 🔀 API Gateway (Ocelot)
 
@@ -38,16 +38,16 @@ Atualmente em fase de aprimoramento.
 
 ## 💻 Tecnologias Utilizadas
 
+ - SQL Server
+
+ - API Gateway (Ocelot)
+
+ - RabbitMQ
+
  - .NET
 
  - ASP.NET Core
 
  - Entity Framework Core
-
- - Microsoft SQL Server
-
- - API Gateway (Ocelot)
-
- - RabbitMQ
 
  - Swagger
