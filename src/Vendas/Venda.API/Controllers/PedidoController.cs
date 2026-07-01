@@ -11,6 +11,7 @@ namespace Venda.API.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
+    [Tags("Microsserviço de Vendas")]
     public class PedidoController : ControllerBase
     {
         private readonly IPedidoService _pedidoService;

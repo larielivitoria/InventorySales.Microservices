@@ -11,6 +11,7 @@ namespace Estoque.API.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
+    [Tags("Microsserviço de Estoque")]
     public class ProdutoController : ControllerBase
     {
         private readonly IProdutoService _produtoService;

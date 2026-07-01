@@ -39,6 +39,8 @@ namespace Venda.Application.Services
 
         public async Task<Pedido> CriarPedidoAsync(PedidoDTO pedidoDTO)
         {
+            string statusFinal = "Processando";
+
             //verifica estoque de todos os itens via RPC
             foreach (var item in pedidoDTO.Itens)
             {
@@ -47,7 +49,7 @@ namespace Venda.Application.Services
                     ProdutoId = item.ProdutoId,
                     Quantidade = item.QuantidadeItemPedido
                 };
-
+                
                 var response = await _bus.RequestAsync<VerificarEstoqueRequest, VerificarEstoqueResponse>(request);
 
                 if (!response.TemEstoque)
@@ -55,17 +57,13 @@ namespace Venda.Application.Services
                     //lança exceção se algum item não tiver estoque
                     throw new InvalidOperationException($"Não há estoque suficiente para o produto {item.ProdutoId}.");
                 }
+                    statusFinal = "Aprovado";  
             }
 
             //validações
             if (string.IsNullOrWhiteSpace(pedidoDTO.ClienteNome))
             {
                 throw new Exception("Nome do cliente não pode estar vazio.");
-            }
-
-            if (string.IsNullOrWhiteSpace(pedidoDTO.Status))
-            {
-                throw new Exception("Status do pedido não pode estar vazio.");
             }
 
             if (pedidoDTO.Itens.Any(i => i.ProdutoId <= 0))
@@ -82,7 +80,7 @@ namespace Venda.Application.Services
             var pedido = new Pedido
             {
                 ClienteNome = pedidoDTO.ClienteNome,
-                Status = pedidoDTO.Status,
+                Status = statusFinal,
                 Itens = pedidoDTO.Itens.Select(i => new ItemPedido
                 {
                     ProdutoId = i.ProdutoId,

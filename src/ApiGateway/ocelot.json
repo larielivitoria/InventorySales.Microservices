@@ -10,7 +10,8 @@
         }
       ],
       "UpstreamPathTemplate": "/vendas/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "pedido"
     },
     {
       "DownstreamPathTemplate": "/produto/{everything}",
@@ -22,7 +23,30 @@
         }
       ],
       "UpstreamPathTemplate": "/estoque/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "produto"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "pedido",
+      "Config": [
+        {
+          "Name": "Microsserviço de Vendas",
+          "Version": "v1",
+          "Url": "http://localhost:5169/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "produto",
+      "Config": [
+        {
+          "Name": "Microsserviço de Estoque",
+          "Version": "v1",
+          "Url": "http://localhost:5079/swagger/v1/swagger.json"
+        }
+      ]
     }
   ],
   "GlobalConfiguration": {
