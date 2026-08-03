@@ -11,7 +11,25 @@
       ],
       "UpstreamPathTemplate": "/vendas/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "SwaggerKey": "pedido"
+      "SwaggerKey": "pedido",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/produto/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5079
+        }
+      ],
+      "UpstreamPathTemplate": "/estoque/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "produto"
     },
     {
       "DownstreamPathTemplate": "/produto/{everything}",
@@ -23,10 +41,15 @@
         }
       ],
       "UpstreamPathTemplate": "/estoque/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "SwaggerKey": "produto"
+      "UpstreamHttpMethod": [ "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "produto",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     }
   ],
+
   "SwaggerEndPoints": [
     {
       "Key": "pedido",
@@ -49,6 +72,7 @@
       ]
     }
   ],
+
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:5096"
   }

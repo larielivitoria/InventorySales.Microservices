@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Estoque.Application.DTOs;
 using Estoque.Application.Interfaces;
 using Estoque.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Estoque.API.Controllers
@@ -35,6 +36,7 @@ namespace Estoque.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin, Gerente, Estoquista")]
         public async Task<IActionResult> CriarProduto([FromBody] ProdutoDTO produtoDTO)
         {
             var novo = await _produtoService.CriarProdutoAsync(produtoDTO);
@@ -42,6 +44,7 @@ namespace Estoque.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin, Gerente")]
         public async Task<IActionResult> AtualizarProduto(int id, [FromBody] AtualizaEstoqueDTO atualizaEstoqueDTO)
         {
             var produto = await _produtoService.AtualizarProdutoAsync(id, atualizaEstoqueDTO);
@@ -49,6 +52,7 @@ namespace Estoque.API.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Roles = "Admin, Gerente")]
         public async Task<IActionResult> RemoverProduto(int id)
         {
             await _produtoService.RemoverProdutoAsync(id);
