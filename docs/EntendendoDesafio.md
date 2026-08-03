@@ -100,3 +100,13 @@ O sistema deve ter uma **API Gateway** que direcione as requisições para os mi
 O sistema deve ser seguro, com autenticação via **JWT** para usuários e permissões específicas para cada ação. 
 
 O código deve ser bem estruturado, com separação de responsabilidades e boas práticas de POO. 
+
+## ➕ Extras
+
+**Testes Unitários:** Criar testes unitários para as funcionalidades principais, como cadastro de produtos e criação de pedidos. 
+
+**Monitoramento e Logs:** Implementar monitoramento básico de logs para rastrear falhas e transações no sistema. 
+
+**Escalabilidade:** O sistema deve ser capaz de escalar facilmente, caso seja necessário adicionar mais microserviços (ex: microserviço de pagamento ou de envio). 
+
+**Bons estudos!**
