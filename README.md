@@ -1,5 +1,5 @@
 <div align="center" >
-  <img src="assets/BootcampAvanade.png" width="100"/>
+  <img src="assets/BootcampAvanade.png" width="120"/>
 
  # Bootcamp Avanade - Back-end com .NET e IA
  
@@ -114,3 +114,15 @@ Depois de rir muito com essa frase e quebrar a cabeça pesquisando, optei por ut
 * RabbitMQ
 * SQL Server | Entity Framework Core
 
+<div align="center" >
+  
+   # 🎓 Certificações
+   <a href="https://www.dio.me/certificate/PZQYRYMO/share">
+      <img src="assets/AvanadeBootcampCertificado.png" width="300"/>
+   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.dio.me/certificate/WIXVMNGM/share">
+      <img src="assets/DesafioTécnicoCertificado.png" width="300"/>
+  </a>
+ 
+</div>
